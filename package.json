@@ -1,0 +1,26 @@
+{
+  "name": "general-styles",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "styles",
+    "common-styles",
+    "css-styles"
+  ],
+  "author": "Yulduz",
+  "license": "MIT",
+  "description": "its a library common css styles",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.34",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.13"
+  }
+}
